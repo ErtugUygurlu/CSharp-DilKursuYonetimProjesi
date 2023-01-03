@@ -74,7 +74,7 @@
             this.YonetimDgv.Size = new System.Drawing.Size(852, 186);
             this.YonetimDgv.TabIndex = 0;
             this.YonetimDgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.YonetimDgv_CellClick);
-            this.YonetimDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.YonetimDgv_CellContentClick);
+            //this.YonetimDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.YonetimDgv_CellContentClick);
             // 
             // label1
             // 
@@ -85,7 +85,7 @@
             this.label1.Size = new System.Drawing.Size(85, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "AdSoyad:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // AdSoyadTb
             // 
@@ -93,7 +93,7 @@
             this.AdSoyadTb.Name = "AdSoyadTb";
             this.AdSoyadTb.Size = new System.Drawing.Size(157, 20);
             this.AdSoyadTb.TabIndex = 2;
-            this.AdSoyadTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //this.AdSoyadTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -157,7 +157,7 @@
             this.label5.Size = new System.Drawing.Size(57, 19);
             this.label5.TabIndex = 1;
             this.label5.Text = "Adres:";
-            this.label5.Click += new System.EventHandler(this.label1_Click);
+            //this.label5.Click += new System.EventHandler(this.label1_Click);
             // 
             // AdresTb
             // 
@@ -166,7 +166,7 @@
             this.AdresTb.Name = "AdresTb";
             this.AdresTb.Size = new System.Drawing.Size(157, 84);
             this.AdresTb.TabIndex = 2;
-            this.AdresTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //this.AdresTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // YonetimPb
             // 
@@ -235,7 +235,7 @@
             this.FilterTb.Name = "FilterTb";
             this.FilterTb.Size = new System.Drawing.Size(157, 20);
             this.FilterTb.TabIndex = 2;
-            this.FilterTb.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            //this.FilterTb.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // panel1
             // 

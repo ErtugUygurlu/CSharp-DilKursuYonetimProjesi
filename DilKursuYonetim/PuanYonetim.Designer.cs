@@ -141,7 +141,7 @@
             this.AciklamaTb.Name = "AciklamaTb";
             this.AciklamaTb.Size = new System.Drawing.Size(260, 131);
             this.AciklamaTb.TabIndex = 41;
-            this.AciklamaTb.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            //this.AciklamaTb.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // PuanTb
             // 

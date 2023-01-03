@@ -19,10 +19,6 @@ namespace DilKursuYonetim
         }
         SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-ORL2PMQ\SQLEXPRESS;Initial Catalog=kurs;Integrated Security=True");
         int pid;
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void Puanlar()
         {

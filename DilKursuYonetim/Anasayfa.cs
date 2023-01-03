@@ -18,10 +18,6 @@ namespace DilKursuYonetim
             panelDesing();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
         private void panelDesing()
         {
             panel_ogrenciMenu.Visible = false;
@@ -149,11 +145,6 @@ namespace DilKursuYonetim
             PuanYazdir pyaz = new PuanYazdir();
             pyaz.Show();
             this.Hide();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void button_cıkıs_Click(object sender, EventArgs e)

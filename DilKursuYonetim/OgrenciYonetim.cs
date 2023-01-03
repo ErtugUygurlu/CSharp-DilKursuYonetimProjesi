@@ -19,22 +19,6 @@ namespace DilKursuYonetim
         }
         SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-ORL2PMQ\SQLEXPRESS;Initial Catalog=kurs;Integrated Security=True");
 
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button5_Click(object sender, EventArgs e)
         {
             baglanti.Open();
@@ -102,11 +86,6 @@ namespace DilKursuYonetim
 
         }
 
-        private void YonetimDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             if (AdSoyadTb.Text == "" || TelefonTb.Text == "" || ResimTb.Text == "" || CinsiyetCb.Text == "" || AdresTb.Text == "")
@@ -137,7 +116,6 @@ namespace DilKursuYonetim
             Anasayfa ana = new Anasayfa();
             ana.Show();
             this.Hide();
-
         }
 
         private void ResimYukleBtn_Click(object sender, EventArgs e)

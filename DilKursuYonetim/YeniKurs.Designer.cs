@@ -53,7 +53,7 @@
             this.AdTb.Name = "AdTb";
             this.AdTb.Size = new System.Drawing.Size(157, 20);
             this.AdTb.TabIndex = 18;
-            this.AdTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //this.AdTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -64,7 +64,7 @@
             this.label1.Size = new System.Drawing.Size(75, 19);
             this.label1.TabIndex = 17;
             this.label1.Text = "Kurs Adı:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            //this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -75,7 +75,7 @@
             this.label2.Size = new System.Drawing.Size(86, 19);
             this.label2.TabIndex = 17;
             this.label2.Text = "Kurs Saati:";
-            this.label2.Click += new System.EventHandler(this.label1_Click);
+            //this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
             // SaatTb
             // 
@@ -83,7 +83,7 @@
             this.SaatTb.Name = "SaatTb";
             this.SaatTb.Size = new System.Drawing.Size(157, 20);
             this.SaatTb.TabIndex = 18;
-            this.SaatTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //this.SaatTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -94,7 +94,7 @@
             this.label3.Size = new System.Drawing.Size(90, 19);
             this.label3.TabIndex = 17;
             this.label3.Text = "Açıklama:";
-            this.label3.Click += new System.EventHandler(this.label1_Click);
+            //this.label3.Click += new System.EventHandler(this.label1_Click);
             // 
             // AciklamaTb
             // 
@@ -103,7 +103,7 @@
             this.AciklamaTb.Name = "AciklamaTb";
             this.AciklamaTb.Size = new System.Drawing.Size(260, 131);
             this.AciklamaTb.TabIndex = 18;
-            this.AciklamaTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //this.AciklamaTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button3
             // 

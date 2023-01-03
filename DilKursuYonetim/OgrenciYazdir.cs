@@ -19,11 +19,6 @@ namespace DilKursuYonetim
         }
         SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-ORL2PMQ\SQLEXPRESS;Initial Catalog=kurs;Integrated Security=True");
 
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void uyeler()
         {
             baglanti.Open();
@@ -34,11 +29,6 @@ namespace DilKursuYonetim
             sda.Fill(ds);
             yazdirDgv.DataSource = ds.Tables[0];
             baglanti.Close();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void OgrenciYazdir_Load(object sender, EventArgs e)

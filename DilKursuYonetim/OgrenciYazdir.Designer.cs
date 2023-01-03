@@ -152,7 +152,7 @@
             this.yazdirDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.yazdirDgv.Size = new System.Drawing.Size(853, 358);
             this.yazdirDgv.TabIndex = 42;
-            this.yazdirDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            //this.yazdirDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // label1
             // 

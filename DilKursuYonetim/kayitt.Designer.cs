@@ -69,7 +69,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(853, 48);
             this.panel1.TabIndex = 23;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            //this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // GeriBtn
             // 
@@ -152,7 +152,7 @@
             this.OgrenciPb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OgrenciPb.TabIndex = 19;
             this.OgrenciPb.TabStop = false;
-            this.OgrenciPb.Click += new System.EventHandler(this.OgrenciPb_Click);
+            //this.OgrenciPb.Click += new System.EventHandler(this.OgrenciPb_Click);
             // 
             // OgrenciCinsiyetCb
             // 
@@ -267,7 +267,7 @@
             this.OgrenciDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.OgrenciDgv.Size = new System.Drawing.Size(852, 186);
             this.OgrenciDgv.TabIndex = 8;
-            this.OgrenciDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OgrenciDgv_CellContentClick);
+            //this.OgrenciDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OgrenciDgv_CellContentClick);
             // 
             // label7
             // 
@@ -278,7 +278,7 @@
             this.label7.Size = new System.Drawing.Size(58, 19);
             this.label7.TabIndex = 12;
             this.label7.Text = "Resim:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            //this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // OgrenciResimTb
             // 

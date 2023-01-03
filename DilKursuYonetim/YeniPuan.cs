@@ -67,7 +67,6 @@ namespace DilKursuYonetim
                 }
                 catch (Exception Ex)
                 {
-
                     MessageBox.Show(Ex.Message);
                 }
             }
@@ -79,7 +78,6 @@ namespace DilKursuYonetim
             PuanTb.Text = "";
             KursSecCb.Text = "";
             AciklamaTb.Text = "";
-
         }
 
         private void button1_Click(object sender, EventArgs e)

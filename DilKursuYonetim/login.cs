@@ -17,11 +17,6 @@ namespace DilKursuYonetim
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (KullaniciTb.Text == "" || SifreTb.Text == "")
@@ -40,16 +35,9 @@ namespace DilKursuYonetim
             }
         }
 
-
-
         private void label9_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void login_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -20,11 +20,6 @@ namespace DilKursuYonetim
 
         SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-ORL2PMQ\SQLEXPRESS;Initial Catalog=kurs;Integrated Security=True");
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void kayitt_Load(object sender, EventArgs e)
         {
             uyeler();
@@ -81,7 +76,6 @@ namespace DilKursuYonetim
             OgrenciCinsiyetCb.Text = "";
             OgrenciResimTb.Text = "";
             OgrenciAdresTb.Text = "";
-
         }
 
         private void GeriBtn_Click(object sender, EventArgs e)
@@ -89,21 +83,6 @@ namespace DilKursuYonetim
             Anasayfa ana = new Anasayfa();
             ana.Show();
             this.Hide();
-        }
-
-        private void OgrenciPb_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void OgrenciDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

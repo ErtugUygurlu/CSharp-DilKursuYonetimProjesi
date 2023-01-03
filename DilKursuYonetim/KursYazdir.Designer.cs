@@ -151,7 +151,7 @@
             this.KursListeDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.KursListeDgv.Size = new System.Drawing.Size(853, 347);
             this.KursListeDgv.TabIndex = 42;
-            this.KursListeDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            //this.KursListeDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label1
             // 

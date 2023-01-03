@@ -64,11 +64,6 @@ namespace DilKursuYonetim
             AciklamaTb.Text = "";
         }
 
-        private void KYonetimDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void KYonetimDgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             KursKey = Convert.ToInt32(KYonetimDgv.SelectedRows[0].Cells[0].Value.ToString());

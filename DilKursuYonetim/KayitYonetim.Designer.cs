@@ -196,7 +196,7 @@
             this.KYonetimDgv.Size = new System.Drawing.Size(857, 150);
             this.KYonetimDgv.TabIndex = 26;
             this.KYonetimDgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.KYonetimDgv_CellClick);
-            this.KYonetimDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.KYonetimDgv_CellContentClick);
+            //this.KYonetimDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.KYonetimDgv_CellContentClick);
             // 
             // button4
             // 
